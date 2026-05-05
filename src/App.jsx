@@ -16,13 +16,13 @@ function App() {
         </div>
         {/* Texto */}
         <div className="text-center text-gray-700 mb-4">
-          <p>
+          <p className="mb-3">
             Digite o número de registro do paciente fornecido pela família:{" "}
           </p>
-          {/* imput */}
-          <div className=" w-full max-w-sm flex items-center border rounded-lg px-3 py-2 bg-white shadow-sm mb-6">
-            <input type="text" value={registro} onChange={""} />
-          </div>
+        </div>
+        {/* imput */}
+        <div className=" w-full max-w-sm flex items-center border rounded-lg px-3 py-2 bg-white shadow-sm mb-6">
+          <input type="text" value={registro} onChange={""} />
         </div>
         {/* card */}
 
